@@ -1,0 +1,8 @@
+@import '@/styles/colors.scss';
+@import '@/styles/sizes.scss';
+
+.footer {
+  margin-top: $gap;
+  padding: $gap;
+  border-top: 2px solid $color-primary;
+}

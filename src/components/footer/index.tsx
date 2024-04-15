@@ -1,9 +1,15 @@
 import React from "react";
+import styles from './styles.module.scss';
+import Container from "@/components/ui/container";
 
 const Footer = (): JSX.Element => {
 
   return (
-    <footer>This is the footer</footer>
+    <footer className={styles.footer}>
+      <Container>
+        <p>© 2024 Tim Krause</p>
+      </Container>
+    </footer>
   );
 }
 
