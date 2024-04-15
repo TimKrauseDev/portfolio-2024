@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import "@/styles/globals.scss";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-
+import GridProvider from "@/providers/GridProvider";
+import Spacer from "@/components/ui/spacer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,9 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <GridProvider>
+          <Header />
+          {children}
+          <Footer />
+        </GridProvider>
       </body>
     </html>
   );
