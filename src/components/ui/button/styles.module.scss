@@ -1,0 +1,54 @@
+@import '@/styles/colors.scss';
+@import '@/styles/sizes.scss';
+@import '@/styles/mixins.scss';
+
+.button {
+  background-color: $color-primary;
+  color: $color-off-white;
+  border: 2px solid $color-primary;
+  text-transform: uppercase;
+  border-radius: 8px;
+  transition: .3s ease-in-out all;
+  padding: 1rem 1.2rem;
+  letter-spacing: .1rem;
+  @include font-size(18);
+
+  + .button {
+    margin-left: $gutter;
+  }
+
+  &:hover, &:focus-visible {
+    background-color: $color-secondary;
+    border-color: $color-secondary;
+    text-decoration: none;
+  }
+}
+
+.outline {
+  background-color: transparent;
+  color: $color-primary;
+
+  &:hover, &:focus-visible {
+    background-color: $color-secondary;
+    color: $color-off-white;
+  }
+}
+
+.dark {
+  background-color: $color-secondary;
+  border-color: $color-secondary;
+
+  &:hover, &:focus-visible {
+    background-color: $color-off-white;
+    color: $color-secondary;
+  }
+}
+.outline-dark {
+  background-color: transparent;
+  border-color: $color-secondary;
+
+  &:hover, &:focus-visible {
+    background-color: $color-off-white;
+    color: $color-secondary;
+  }
+}
