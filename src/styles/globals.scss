@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./reset.scss";
+@import "./PulpFont/stylesheet.css";
+
+body {
+  font-family: "Pulp Display";
+}
