@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 @import "./reset.scss";
+@import './colors.scss';
+@import "./mixins.scss";
+@import "./functions.scss";
 @import "./PulpFont/stylesheet.css";
+
+@import './typography.scss';
 
 body {
   font-family: "Pulp Display";
+  background-color: $color-off-white;
 }

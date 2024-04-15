@@ -1,0 +1,45 @@
+p {
+  color: $color-off-black;
+  @include line-height();
+
+  &.lead {
+    @include font-size(20);
+  }
+  &.lead-lg {
+    @include font-size(28);
+  }
+}
+
+a {
+  @include line-height();
+  &:hover, &:focus-visible {
+    text-decoration: underline;
+  }
+}
+
+h1, .h1 {
+  @include font-size(55);
+  @include line-height();
+  font-weight: 700;
+}
+h2, .h2 {
+  @include font-size(40);
+  @include line-height();
+}
+h3, .h3 {
+  @include font-size(24);
+  @include line-height();
+}
+h4, .h4 {
+  @include font-size(20);
+  @include line-height();
+}
+h5, .h5 {
+  @include font-size(18);
+  @include line-height();
+  font-weight: 700;
+}
+h6, .h6 {
+  @include font-size(18);
+  @include line-height();
+}

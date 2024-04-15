@@ -1,0 +1,24 @@
+@import './functions.scss';
+
+@mixin responsiveBelow ($max-width) {
+  @media only screen and (max-width: $max-width) { @content; }
+}
+
+@mixin responsiveAbove ($min-width) {
+  @media only screen and (min-width: $min-width) { @content; }
+}
+
+@mixin font-size ($size) {
+  font-size: $size + px;
+  font-size: toRem($size);
+}
+
+@mixin line-height ($size: null) {
+  @if $size {
+    line-height: $size + px;
+    line-height: toRem($size);
+  }
+  @else {
+    line-height: 1.5;
+  }
+}
