@@ -11,7 +11,7 @@ const Ecommerce = () => {
   return (
     <main>
       <Container className={styles.ecommerce}>
-        <div className={styles.intro}>
+        <section className={styles.intro}>
           <h1>Messenger</h1>
           <p className="lead">Chatic is an online chat room that utilizes Socket.IO for real-time communication.</p>
           <Spacer height={30} />
@@ -19,7 +19,7 @@ const Ecommerce = () => {
             <Button to="https://chatic.timkrause.dev/" newTab={true}>Website</Button>
             <Button to="https://github.com/TimKrauseDev/chatic-app" variant="outline" newTab={true}>Github</Button>
           </div>
-        </div>
+        </section>
         <Spacer height={120} />
         <FeatureSlider slides={slides} />
         <Spacer height={120} />

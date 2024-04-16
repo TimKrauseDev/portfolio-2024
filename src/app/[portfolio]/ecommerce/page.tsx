@@ -11,7 +11,7 @@ const Ecommerce = () => {
   return (
     <main>
       <Container className={styles.ecommerce}>
-        <div className={styles.intro}>
+        <section className={styles.intro}>
           <h1>Ecommerce</h1>
           <p className="lead">This e-commerce website was developed using a MERN stack and integrates third-party services for secure authentication and payment.</p>
           <Spacer height={30} />
@@ -19,10 +19,10 @@ const Ecommerce = () => {
             <Button to="https://krauseco.timkrause.dev/" newTab={true}>Website</Button>
             <Button to="https://github.com/TimKrauseDev/Krause-Co" variant="outline" newTab={true}>Github</Button>
           </div>
-        </div>
-        <Spacer height={120} />
+        </section>
+        <Spacer height={90} />
         <FeatureSlider slides={slides} />
-        <Spacer height={120} />
+        <Spacer height={90} />
       </Container>
     </main>
   );
