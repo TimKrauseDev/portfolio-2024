@@ -66,7 +66,7 @@ const Portfolio = (): JSX.Element => {
               />
             </Cell>
           </Grid>
-          <Spacer height={90} />
+          <Spacer height={60} />
           <h3>WordPress / Static</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae qui omnis veritatis error non, reprehenderit officia magnam dignissimos cum placeat, et amet, iure laudantium aspernatur. Quidem ratione enim dolorum.</p>
           <Spacer height={30} />
@@ -117,7 +117,7 @@ const Portfolio = (): JSX.Element => {
               />
             </Cell>
           </Grid>
-          <Spacer height={90} />
+          <Spacer height={60} />
           <h3>React</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae qui omnis veritatis error non, reprehenderit officia magnam dignissimos cum placeat, et amet, iure laudantium aspernatur. Quidem ratione enim dolorum.</p>
           <Spacer height={30} />
@@ -145,6 +145,7 @@ const Portfolio = (): JSX.Element => {
               />
             </Cell>
           </Grid>
+          <Spacer height={60} />
       </Container>
     </section>
   );
