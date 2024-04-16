@@ -2,6 +2,20 @@
 @import '@/styles/sizes.scss';
 
 .footer {
-  padding: $gap;
+  padding-top: $gap;
+  padding-bottom: $gap;
   border-top: 2px solid $color-primary;
+}
+
+.socialWrapper {
+  display: flex;
+  gap: $gutter;
+  justify-content: flex-end;
+
+  a {
+    color: $color-primary;
+    &:hover, &:focus-visible {
+      color: $color-secondary;
+    }
+  }
 }
