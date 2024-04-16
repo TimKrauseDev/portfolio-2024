@@ -14,20 +14,20 @@ const GridProvider = ({children}: PropTypes): JSX.Element => {
         l: 1679
       }}
       rowGap={{
-        s: '15px',
-        m: '15px',
+        s: '30px',
+        m: '30px',
         l: '30px',
         xl: '30px',
       }}
       colGap={{
-        s: '15px',
-        m: '15px',
+        s: '30px',
+        m: '30px',
         l: '30px',
         xl: '30px',
       }}
       cols={{
         s: 6,
-        m: 6,
+        m: 12,
         l: 12,
         xl: 12,
       }}
