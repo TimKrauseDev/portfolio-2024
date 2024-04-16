@@ -1,0 +1,20 @@
+@import '@/styles/colors.scss';
+@import '@/styles/sizes.scss';
+@import '@/styles/functions.scss';
+
+.contactWrapper {
+  background-image: radial-gradient(
+    circle farthest-corner at 50% 50%,
+    $color-primary,
+    $color-secondary
+  );
+}
+
+.contact {
+  padding: toRem(60);
+  text-align: center;
+
+  h2, p, a {
+    color: $color-white;
+  }
+}
