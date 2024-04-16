@@ -3,6 +3,7 @@ import "@/styles/globals.scss";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import GridProvider from "@/providers/GridProvider";
+import Contact from "@/components/contact";
 
 export const metadata: Metadata = {
   title: "Tim Krause | Portfolio",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <GridProvider>
           <Header />
           {children}
+          <Contact />
           <Footer />
         </GridProvider>
       </body>
