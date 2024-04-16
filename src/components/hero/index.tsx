@@ -10,8 +10,8 @@ const Hero = (): JSX.Element => {
           <h1>Tim Krause</h1>
           <p className="lead-lg">Frontend Developer based out of Wilmington, NC.</p>
           <div className={styles.btnWrapper}>
-            <Button variant='dark'>Resume</Button>
-            <Button variant="outline-dark">Contact</Button>
+            <Button to='/TimKrauseResume.pdf' variant='dark' newTab={true}>Resume</Button>
+            <Button to='mailto:timkrausedev@gmail.com' variant='outline-dark'>Contact</Button>
           </div>
       </Container>
     </section>
