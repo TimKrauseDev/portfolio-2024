@@ -58,23 +58,25 @@ const FeatureSlider = ({slides}: PropTypes) => {
       }
 
 
-      return (
-        <Grid className={styles.featureSlider}>
-      <Cell cols={3} colsM={12}>
-        <h2>Features</h2>
-        <Underline />
-        <Spacer height={30}/>
-  			<div className={styles.radioWrapper}>
-          {slides && handleRenderRadioItems()}
-        </div>
-      </Cell>
-      <Cell cols={9} colsM={12}>
-				<div className={styles.slideContainerWrapper}>
-		  		{slides && handleRenderSlides()}
-				</div>
-      </Cell>
-    </Grid>
-    );
+  return (
+    <section>
+      <Grid className={styles.featureSlider}>
+        <Cell cols={3} colsM={12}>
+          <h2>Features</h2>
+          <Underline />
+          <Spacer height={30}/>
+          <div className={styles.radioWrapper}>
+            {slides && handleRenderRadioItems()}
+          </div>
+        </Cell>
+        <Cell cols={9} colsM={12}>
+          <div className={styles.slideContainerWrapper}>
+            {slides && handleRenderSlides()}
+          </div>
+        </Cell>
+      </Grid>
+    </section>
+  );
 }
 
 export default FeatureSlider;
