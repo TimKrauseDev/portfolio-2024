@@ -1,5 +1,5 @@
 p {
-  color: $color-off-black;
+  color: $color-black;
   @include line-height();
 
   &.lead {
@@ -12,6 +12,7 @@ p {
 
 a {
   @include line-height();
+  font-weight: 700;
   &:hover, &:focus-visible {
     text-decoration: underline;
   }
@@ -25,10 +26,13 @@ h1, .h1 {
 h2, .h2 {
   @include font-size(40);
   @include line-height();
+  font-weight: 700;
 }
 h3, .h3 {
   @include font-size(24);
   @include line-height();
+  color: $color-primary;
+  font-weight: 700;
 }
 h4, .h4 {
   @include font-size(20);
