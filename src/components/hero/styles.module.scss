@@ -13,7 +13,7 @@
     $color-primary,
     $color-secondary
   );
-  height: toRem(700);
+  min-height: toRem(500);
   border-radius: 25px;
 
   h1, p {
