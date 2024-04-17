@@ -3,6 +3,7 @@ import Spacer from '@/components/ui/spacer';
 import Hero from '@/components/hero';
 import About from '@/components/about';
 import Portfolio from '@/components/portfolio';
+import Contact from "@/components/contact";
 
 const Home = (): JSX.Element => {
   return (
@@ -13,6 +14,7 @@ const Home = (): JSX.Element => {
       <Spacer height={90} />
       <Portfolio />
       <Spacer height={90} />
+      <Contact />
     </main>
   );
 }
