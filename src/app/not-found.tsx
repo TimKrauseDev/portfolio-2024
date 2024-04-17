@@ -1,7 +1,6 @@
 import Button from '@/components/ui/button'
 import Container from '@/components/ui/container'
 import Spacer from '@/components/ui/spacer'
-import Link from 'next/link'
 
 export default function NotFound() {
   return (
