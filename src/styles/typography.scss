@@ -2,6 +2,11 @@ p {
   color: $color-black;
   @include line-height();
 
+  + p {
+    margin-top: 1rem;
+
+  }
+
   &.lead {
     @include font-size(20);
   }
