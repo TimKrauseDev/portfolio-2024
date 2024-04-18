@@ -11,10 +11,10 @@ const Footer = (): JSX.Element => {
     <footer className={styles.footer}>
       <Container>
         <Grid>
-          <Cell cols={6}>
+          <Cell cols={6} colsS={3}>
             <p>© {new Date().getFullYear()} Tim Krause</p>
           </Cell>
-          <Cell cols={6} className={styles.socialWrapper}>
+          <Cell cols={6} colsS={3} className={styles.socialWrapper}>
             <a
               href='https://www.linkedin.com/in/timothyckrause/'
               target="_blank"

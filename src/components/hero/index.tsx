@@ -5,7 +5,7 @@ import Button from "@/components/ui/button";
 
 const Hero = (): JSX.Element => {
   return (
-    <section id="hero">
+    <section id="hero" className={styles.hero}>
       <Container className={styles.heroContent}>
           <h1>Tim Krause</h1>
           <p className="lead-lg">Frontend Developer based out of Wilmington, NC.</p>

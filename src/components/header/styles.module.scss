@@ -11,6 +11,11 @@
   display: flex;
   justify-content: space-between;
   padding: $gap 0;
+  @include responsiveBelow($site-width + $gap) {
+    padding-left: $gutter;
+    padding-right: $gutter;
+
+  }
 }
 
 .nav {
