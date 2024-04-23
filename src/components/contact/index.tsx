@@ -13,7 +13,7 @@ const Contact = (): JSX.Element => {
           If you would like to work together, please reach out!
         </p>
         <Spacer height={30} />
-        <Button to="mailto:timkrausedev@gmail.com" variant="dark">Email Me!</Button>
+        <Button to="mailto:contact@timkrause.dev" variant="dark">Email Me!</Button>
       </Container>
     </section>
   );
