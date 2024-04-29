@@ -26,7 +26,7 @@ const Header = (): JSX.Element => {
           <ul className={styles.navItems}>
             <li className={styles.navItem}><a href="#about">About</a></li>
             <li className={styles.navItem}><a href="#portfolio">Portfolio</a></li>
-            <Button to="mailto:contact@timkrause.dev" size="small">Contact</Button>
+            <Button to="mailto:timkrausedev@gmail.com" size="small">Contact</Button>
           </ul>
         </nav>
         <div className={styles.mobileBtn}>

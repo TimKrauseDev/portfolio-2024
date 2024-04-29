@@ -23,7 +23,7 @@ const Footer = (): JSX.Element => {
               <Linkedin />
             </a>
             <a
-              href='https://www.linkedin.com/in/timothyckrause/'
+              href='https://github.com/TimKrauseDev'
               target="_blank"
               rel="noopenner noreferrer"
             >
